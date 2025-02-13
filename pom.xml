@@ -10,6 +10,7 @@
   <name>learn-design-pattern</name>
   <modules>
     <module>abstract-factory</module>
+      <module>creational-patterns</module>
   </modules>
 
   <properties>
