@@ -11,6 +11,10 @@
   <modules>
     <module>abstract-factory</module>
       <module>creational-patterns</module>
+      <module>structural-patterns</module>
+    <module>structural-patterns/decorator-patterns</module>
+      <module>structural-patterns/adaptor-patterns</module>
+      <module>structural-patterns/bridge-pattern</module>
   </modules>
 
   <properties>
@@ -20,5 +24,17 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.11.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.11.3</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 </project>
